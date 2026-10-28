@@ -1,0 +1,43 @@
+{
+  "puzzle": {
+    "astar-manhattan": {
+      "mean_moves": 21.96,
+      "optimal_rate": 1.0,
+      "mean_expanded": 1617.8,
+      "median_ms": 5.92
+    },
+    "astar-misplaced": {
+      "mean_moves": 21.96,
+      "optimal_rate": 1.0,
+      "mean_expanded": 15562.8,
+      "median_ms": 70.34
+    },
+    "greedy-manhattan": {
+      "mean_moves": 43.96,
+      "optimal_rate": 0.05,
+      "mean_expanded": 286.9,
+      "median_ms": 2.34
+    },
+    "greedy-misplaced": {
+      "mean_moves": 50.84,
+      "optimal_rate": 0.02,
+      "mean_expanded": 830.0,
+      "median_ms": 3.93
+    }
+  },
+  "snake": {
+    "greedy": {
+      "mean_food": 2.07,
+      "median_food": 0.0,
+      "max_food": 14,
+      "died_before_5_food": 0.79
+    },
+    "astar": {
+      "mean_food": 61.26,
+      "median_food": 64.5,
+      "max_food": 108,
+      "died_before_5_food": 0.0
+    }
+  },
+  "gif_score": 28
+}
